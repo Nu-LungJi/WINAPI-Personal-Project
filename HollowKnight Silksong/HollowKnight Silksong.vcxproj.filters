@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01. DefaultWindow">
+      <UniqueIdentifier>{257fd602-77bc-449b-a129-4662cb6ceeb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{208e2435-fa15-4353-8d34-6df140eebdd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{4507e8cd-4567-435d-a7ef-ae4785e936ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Manager">
+      <UniqueIdentifier>{fc18cab6-2577-49cb-9e14-45a12601cfc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Manager\01. GameManager">
+      <UniqueIdentifier>{3ce3572c-d10c-4e06-b5c5-cdd4992404d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Manager\02. KeyManager">
+      <UniqueIdentifier>{06f8377f-5a79-48e9-980b-47d3338e83e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Manager\03. TimeManager">
+      <UniqueIdentifier>{fd04b4d6-6f51-40c4-b89d-5d654bc784c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Manager\04. SceneManager">
+      <UniqueIdentifier>{d079d27d-8ddc-46be-a556-cb4b41e6baf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object">
+      <UniqueIdentifier>{0329bd8f-500c-47c8-a5d0-3c688e07d250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene">
+      <UniqueIdentifier>{068abd51-444e-4f24-b04c-46e714fd6d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Manager\05. FileManager">
+      <UniqueIdentifier>{8c9e6bb2-0977-45cc-b1cf-3dd5cce7b1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\BitMap">
+      <UniqueIdentifier>{4ae6f3a4-3396-460a-aedd-618e401a6af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Manager\06. CollisionManager">
+      <UniqueIdentifier>{ab873d8c-ae87-46d3-ba98-798a4f29cd56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Manager\07. ObjectManager">
+      <UniqueIdentifier>{e35ec4fb-5ad2-4c84-a8fc-5e6c964b1b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\User Interface">
+      <UniqueIdentifier>{dd64a2fb-4194-45fe-a9ce-7edd0e4bfa9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\User Interface\01. Button">
+      <UniqueIdentifier>{e210da71-666f-4695-9a3d-73defbf32985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\MainMenu">
+      <UniqueIdentifier>{91345b77-08b6-43e4-97f0-70a051b4496f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\MainMenu\01. Scene_Start">
+      <UniqueIdentifier>{3a95b16d-4553-471a-9c06-557c6afc341f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\MainMenu\02. Scene_Select">
+      <UniqueIdentifier>{b233e55b-8642-41cd-90a7-9adb0f759d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\MainMenu\03. Scene_Exit">
+      <UniqueIdentifier>{b982c07a-88be-48f1-87ce-27b00827d0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\MainStage">
+      <UniqueIdentifier>{f955485b-f545-4f93-b221-c7e37bb7a41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\NPC">
+      <UniqueIdentifier>{5446e535-e2ed-45a3-9118-89d378a065ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Manager\08. TileManager">
+      <UniqueIdentifier>{9e6f1820-daec-42e4-b8d5-9a997702d003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Manager\08. TileManager\Tile">
+      <UniqueIdentifier>{f5b4a407-1b4e-4306-9c6d-b3f805fe462d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\User Interface\02. Inventory">
+      <UniqueIdentifier>{0cb99ef8-6807-4af9-80a5-abd2994699a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\Player">
+      <UniqueIdentifier>{31152de5-2ade-4749-bede-acb05055e027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Manager\09. CameraManager">
+      <UniqueIdentifier>{6aa976bd-92f3-40c8-bf24-76e0905621d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\Enviroment">
+      <UniqueIdentifier>{51b07895-cbd2-4144-b1dd-5e42589b47dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\User Interface\03. MainScreen">
+      <UniqueIdentifier>{003d6123-302b-4c06-b309-a51c23cb614c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\HitBox">
+      <UniqueIdentifier>{2c0f3289-8e52-451c-9631-89e463943bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\Boss">
+      <UniqueIdentifier>{45c2e5c3-0c81-464f-ba6d-4a438590ed58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\Portal">
+      <UniqueIdentifier>{4ac94620-a3c8-487b-b88a-5d6aa9baf08d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\MainStage\04. Scene_Village">
+      <UniqueIdentifier>{7e3d0f59-d275-4555-9dad-b65b3dcdbd0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\MainStage\05. Scene_Dungeon">
+      <UniqueIdentifier>{6212a1fd-01cb-4be5-9c48-8eb2c822ccc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\User Interface\04. Store">
+      <UniqueIdentifier>{91cf96f7-dca6-44f6-adfb-4e244f7ca777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Manager\10. MapManager">
+      <UniqueIdentifier>{8a5fa07b-8be8-4ad4-9330-26e8134c57cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Object\Monster">
+      <UniqueIdentifier>{02e2a3b3-33ae-4e30-9283-1c903ba334d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Manager\11. SoundManager">
+      <UniqueIdentifier>{3c4a4430-1b17-47fc-87e8-4ae36388e5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\MainStage\06. Scene_Gate">
+      <UniqueIdentifier>{d3e2cf14-0b02-43cc-9d9c-d99841c87561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\MainStage\07. Scene_Boss">
+      <UniqueIdentifier>{3d25b105-c0ac-4b95-bd44-4a1084f0caca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DefaultResource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="HollowKnight Silksong.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="PCH.h">
+      <Filter>01. DefaultWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINE.h">
+      <Filter>01. DefaultWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="ENUM.h">
+      <Filter>01. DefaultWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="TEMPLATE.h">
+      <Filter>01. DefaultWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>02. Manager\01. GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>02. Manager\02. KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>02. Manager\03. TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>02. Manager\04. SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>04. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>02. Manager\05. FileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMap.h">
+      <Filter>03. Object\BitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>03. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>02. Manager\06. CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>02. Manager\07. ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>03. Object\User Interface\01. Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Exit.h">
+      <Filter>04. Scene\MainMenu\03. Scene_Exit</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Select.h">
+      <Filter>04. Scene\MainMenu\02. Scene_Select</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Start.h">
+      <Filter>04. Scene\MainMenu\01. Scene_Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Boss.h">
+      <Filter>04. Scene\MainStage\07. Scene_Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Dungeon.h">
+      <Filter>04. Scene\MainStage\05. Scene_Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Village.h">
+      <Filter>04. Scene\MainStage\04. Scene_Village</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>03. Object\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>02. Manager\08. TileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>02. Manager\08. TileManager\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>03. Object\User Interface\02. Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>02. Manager\07. ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>03. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>02. Manager\09. CameraManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Enviroment.h">
+      <Filter>03. Object\Enviroment</Filter>
+    </ClInclude>
+    <ClInclude Include="STRUCT.h">
+      <Filter>01. DefaultWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUI.h">
+      <Filter>03. Object\User Interface\03. MainScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBox.h">
+      <Filter>03. Object\HitBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>03. Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>03. Object\Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreUI.h">
+      <Filter>03. Object\User Interface\04. Store</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>02. Manager\10. MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>03. Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Gate.h">
+      <Filter>04. Scene\MainStage\06. Scene_Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>02. Manager\11. SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillObject.h">
+      <Filter>03. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Flower.h">
+      <Filter>03. Object\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Load.h">
+      <Filter>04. Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PCH.cpp">
+      <Filter>01. DefaultWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="HollowKnight Silksong.cpp">
+      <Filter>01. DefaultWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>02. Manager\01. GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>02. Manager\02. KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>02. Manager\03. TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>02. Manager\04. SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>02. Manager\05. FileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMap.cpp">
+      <Filter>03. Object\BitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>03. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>02. Manager\06. CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>02. Manager\07. ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>03. Object\User Interface\01. Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>04. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Select.cpp">
+      <Filter>04. Scene\MainMenu\02. Scene_Select</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Start.cpp">
+      <Filter>04. Scene\MainMenu\01. Scene_Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Boss.cpp">
+      <Filter>04. Scene\MainStage\07. Scene_Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Dungeon.cpp">
+      <Filter>04. Scene\MainStage\05. Scene_Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Village.cpp">
+      <Filter>04. Scene\MainStage\04. Scene_Village</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>03. Object\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>02. Manager\08. TileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>02. Manager\08. TileManager\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>03. Object\User Interface\02. Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>03. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>02. Manager\09. CameraManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Enviroment.cpp">
+      <Filter>03. Object\Enviroment</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUI.cpp">
+      <Filter>03. Object\User Interface\03. MainScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="HitBox.cpp">
+      <Filter>03. Object\HitBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>03. Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>03. Object\Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreUI.cpp">
+      <Filter>03. Object\User Interface\04. Store</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>02. Manager\10. MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>03. Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Exit.cpp">
+      <Filter>04. Scene\MainMenu\03. Scene_Exit</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Gate.cpp">
+      <Filter>04. Scene\MainStage\06. Scene_Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>02. Manager\11. SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillObject.cpp">
+      <Filter>03. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Flower.cpp">
+      <Filter>03. Object\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Load.cpp">
+      <Filter>04. Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="HollowKnight Silksong.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="..\Resource\BackEnd\MainIcon.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HollowKnight Silksong.rc">
+      <Filter>Assets</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\BackEnd\Cursor.cur">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+</Project>
