@@ -3,9 +3,9 @@
 2D 메트로배니아 액션 게임 **Hollow Knight: Silksong**을 **C++와 WinAPI로 모작한 개인 프로젝트**입니다. 
 **게임 프레임워크**부터 **플레이어** 조작, **충돌 로직** · **전투**, **몬스터/보스 AI**, **Map · Scene 관리**와 **UI**까지 구현했습니다.
 
-[**GitHub Repository**](https://github.com/Nu-LungJi/WINAPI-Personal-Project)
+### [**GitHub Repository**](https://github.com/Nu-LungJi/WINAPI-Personal-Project)
 
-[**게임 시연 영상**](https://youtu.be/iog-P96g6nk)
+### [**게임 시연 영상**](https://youtu.be/iog-P96g6nk)
 
 | 항목     | 내용                                |
 | ------ | --------------------------------- |
